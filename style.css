@@ -1,6 +1,41 @@
 /* Type your code here */
-
-
+body{
+	background-image: url("assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 100%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: black;
+}
+table{
+	font-size: smaller;
+	text-align: justify;
+	padding: 10px;
+	background-color: white;
+	width: 65%;
+	border-collapse: collapse;
+}
+tr{
+	border: 0px solid;
+	border-color: grey;
+	border-width: 1px;
+}
+#tr{
+	background-color:rgb(215, 67, 45);
+	color: white;
+}
+td{
+	padding: 5px;
+}
+#th{
+	text-align: right;
+}
+.blue{
+	color:rgb(0, 0, 255)
+}
+.grey{
+	color: gray;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
